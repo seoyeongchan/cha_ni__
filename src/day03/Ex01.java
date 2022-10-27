@@ -22,7 +22,7 @@ public class Ex01 {
 				break;
 			}
 		}
-		// Unreachable code
+		
 		System.out.println("합계 : " + sum);
 		
 		sc.close();
