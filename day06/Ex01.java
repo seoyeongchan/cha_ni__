@@ -6,7 +6,8 @@ public class Ex01 {
 		// 배열은 여러 값을 구별하기 위해 index라고 하는 정수 값을 이용한다
 		// 배열의 각 멤버 요소는 단일 변수와 동일하다
 		
-		int[] arr = { 2, 7, 8, 4, 6 };
+		int[] arr = { 2, 7, 8, 4, 6 };		// 배열 선언 
+		// 타입[] 변수 = {};
 		
 		// arr배열의 0번째 요소 (변수)의 값은 2이다.
 		// arr배열의 1번째 요소 (변수)의 값은 7이다.
@@ -16,30 +17,31 @@ public class Ex01 {
 		
 		// 배열안에 5개의 정수가 포함되어 있어서, 배열의 길이는 5이다.
 		
-		System.out.println(arr[0]);
-		System.out.println(arr[1]);
-		System.out.println(arr[2]);
-		System.out.println(arr[3]);
-		System.out.println(arr[4]);
+		System.out.println(arr[0]);		// 2
+		System.out.println(arr[1]);		// 7
+		System.out.println(arr[2]);		// 8
+		System.out.println(arr[3]);		// 4
+		System.out.println(arr[4]);		// 6
 		
-		System.out.println("배열의 길이 : " + arr.length);
-		
+		System.out.println("배열의 길이 : " + arr.length);	// 배열의 길이 : 5
+										// 배열의 길이 .length로 표현
 		// 배열의 요소를 반복문으로 출력해보기
 		for(int i = 0; i < arr.length; i++) {// 배열 및 리스트를 대상으로, 항상 0부터 크기까지
-			System.out.println(arr[i]);
-		}
+			System.out.println(arr[i]);		// 2, 7, 8, 4, 6
+		}			// int i 가 arr.length보다 작으면 i를 ++
 		System.out.println();
 		
 		// 배열의 멤버 요소는 일반 변수와 동일하게 취급한다
 		
 		// 대입
-		arr[0] = 3;
+		arr[0] = 3;						// arr[]의 0번째 자리에 3을 대입
+		System.out.println(arr[0]);		// 3	
 		
 		// 연산
-		arr[1] += 1;
+		arr[1] += 1;				// arr[]의 1번째 자리에 1을 더함 -> 7+1
 		
 		//출력
-		System.out.println(arr[2]);
+		System.out.println(arr[2]);		// 8	// arr[]의 1번째리에 있던 7에 1을 더한 값
 		
 		
 	}
