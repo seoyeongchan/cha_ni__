@@ -2,6 +2,10 @@ package array;
 
 import java.util.Scanner;
 
+//디버깅 
+
+// 체크포인트 걸고 F11 
+// F5 F6
 public class Ex01 {
 	static void show(int[] arr) {
 		System.out.printf("arr[%d] : { ", arr.length);
