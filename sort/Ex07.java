@@ -8,7 +8,7 @@ public class Ex07 {
 		
 		for (int i = 0; i < arr.length; i++) {
 			char ch = arr[i];
-			System.out.print(ch + " ");
+			System.out.print(ch + " ");		// H e l l o w o r l d 
 		}
 		System.out.println();
 		// 정렬을 수행한다면?
@@ -26,10 +26,9 @@ public class Ex07 {
 		}
 		for (int i1 = 0; i1 < arr.length; i1++) {
 			char ch = arr[i1];
-			System.out.print(ch + " ");
+			System.out.print(ch + " ");		// H d e l l l o o r w
 		}
 		System.out.println();
 
 	}
 
-}
