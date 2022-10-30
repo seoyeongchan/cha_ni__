@@ -5,15 +5,16 @@ public class Ex08 {
 		// 문자열 배열의 정렬
 		String[] arr = { "이지은", "홍진호", "강호동", "이병건", "주호민" };
 
-		showArray(arr);
+		showArray(arr);			// 이지은 홍진호 강호동 이병건 주호민 
 		// 1) 문자열은 문자의 배열과 같다
 		// 2) 문자(char)는 정수형이다 (글자의 코드를 정수로 저장한다)
 		// 3) 문자열을 구성하는 첫번째 글자를 비교하여 정렬한다
 		// 4) 만약, 첫번째 글자가 같으면, 그 다음 글자끼리 비교한다
 
-		System.out.println("이지은".compareTo("홍진호"));
-		System.out.println("이지은".compareTo("강호동"));
-
+		System.out.println("이지은".compareTo("홍진호"));		// -3801
+		System.out.println("이지은".compareTo("강호동"));		// 7007
+		// 아스키코드로 문자비교 후 정수형으로 반환
+		
 		// 5) 정수 두 개의 값을 비교한다 			  	 n1 > n2
 		// 6) 두 정수의 차가 0보다 크냐 작냐를 판별한다		 n1 - n2 > 0
 		// -> 숫자가 아닐때 이용(문자열 등등)
@@ -29,7 +30,7 @@ public class Ex08 {
 				}
 			}
 		}
-		showArray(arr);
+		showArray(arr);		// 강호동 이병건 이지은 주호민 홍진호 
 	}
 
 	static void showArray(String[] arr) {
