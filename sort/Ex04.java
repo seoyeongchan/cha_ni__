@@ -2,7 +2,7 @@ package sort;
 
 public class Ex04 {
 	static void showArray(int[] arr) {
-		for(int i = 0; i< arr.length; i++) {
+		for(int i = 0; i< arr.length; i++) {	// i가 0 일때 arr배열의길이만큼(length) i ++ 반복
 			System.out.println(arr[i] + "");
 			System.out.printf("%d : %d\n", i, arr[i]); //(배열 확인)
 		}
