@@ -1,7 +1,7 @@
 package sort;
 
 public class Ex05 {
-	static void showArray(int[] arr) {
+		static void showArray(int[] arr) {
 		for(int i = 0; i< arr.length; i++) {
 //			System.out.println(arr[i] + "");
 			System.out.printf("%d : %d\n", i, arr[i]); //(배열 확인)
@@ -27,6 +27,26 @@ public class Ex05 {
 					System.out.println("\t교환 !!");
 				}
 				
+				
+			// -- 출력 --
+//				0 : 2
+//				1 : 7
+//				2 : 8
+//				3 : 4
+//				4 : 6
+//
+//				2 > 7 : false
+//				2 > 8 : false
+//				2 > 4 : false
+//				2 > 6 : false
+//				7 > 8 : false
+//				7 > 4 : true
+//					교환 !!
+//				4 > 6 : false
+//				8 > 7 : true
+//					교환 !!
+//				7 > 6 : true
+//					교환 !!
 			}
 			// System.out.printf("arr[%d] : %d\n", i, arr[i]);
 		}
