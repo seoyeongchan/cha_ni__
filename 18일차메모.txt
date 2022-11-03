@@ -1,0 +1,17 @@
+Object 클래스는 모든 클래스를 상속받을 수 있다
+
+ex)	출처 : java8 api 구글검색
+
+java.lang.Object
+    java.lang.Number
+         java.lang.Integer
+
+
+java.lang.Object
+    java.lang.String
+=================================
+
+---웹에서 컨트롤 F  -> 검색
+
+=================================
+
