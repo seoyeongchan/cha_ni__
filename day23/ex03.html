@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex03.thml</title>
+</head>
+
+<body>
+
+    <!-- table : 다수의 정보를 정렬할 때 가장 베이직하게 표현하는 방법  -->
+
+    <h1>table : 표 그리기</h1>
+    <hr>
+    <!--
+        table : 표
+        tr : table row, 표 내부의 한개의 줄
+        td : table data, 한 줄 안에서의 데이터를 나타내는 한 칸
+        th : table headline, td와 동일하지만 강조표시됨(굵게, 가운데)
+        thead : 테이블의 고정된 상단
+        tbody : 실제 데이터가 들어가는 하단
+    -->
+
+    <table border="1" cellpadding="10" cellspacing="0"
+            width=" 200px" align="center">
+        <tr>
+            <!-- colsan : 칸을 옆으로(가로) 합치는 것-->
+            <th colspan="2" bgcolor="lightpink">
+                성적표
+            </th>
+        </tr>
+        <!--bgcolor는 칸과 줄 모두 사용 할 수 있다-->
+        <tr bgcolor="skyblue">
+            <!-- th , td 는 반드시 tr 안에 있어야 올바른 표형식이다.-->
+            <th>이름</th>
+            <th>점수</th>
+        </tr>
+        <tr>
+            <td>이지은</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>홍진호</td>
+            <td>22</td>
+        </tr>
+    </table>
+    <p>
+        <input type="color">
+
+    </p>
+
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <td rowspan="3"> <!--rowspan 칸을 밑으로(세로) 합치는것-->
+                메<br>
+                뉴<br>
+                판
+            </td>
+        </tr>
+        <tr>
+            <th>아메리카노</th>
+            <td>2000원</td>
+        </tr>
+        <tr>
+            <th>카페라떼</th>
+            <td>2500원</td>
+
+        </tr>
+
+    </table>
+
+
+
+</body>
+
+</html>
