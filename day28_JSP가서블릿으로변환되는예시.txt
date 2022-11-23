@@ -1,0 +1,25 @@
+// page 지시자는 여기에 작성됨
+import java.util.ArrayList;
+
+public class MyServlet extends HttpServlet {
+
+	// 선언부는 여기에 작성됨
+	private int n1 = 10;
+	private int n2 = 20;
+
+	public int add(int n1, int n2) {
+		int test = 0;
+		return n1 + n2;
+	}
+
+	@Override
+     	public void service(req, resp) throws Exception {
+		// 스크립틀릿은 여기에 작성됨
+
+		PrintWriter out = resp.getWriter();
+		out.print("하이");
+		
+		out.print(n1);
+		out.print(add(10, 20));
+	}
+}

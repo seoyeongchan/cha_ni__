@@ -1,0 +1,72 @@
+1) jdk 1.8.0_3xx 설치 확인 및 환경 변수 설정
+
+	C:\> java -version
+	C:\> javac -version
+
+2) eclipse-jee-2019-06R (for Enterprise Java Developer) 다운로드 
+
+3) tomcat.apache.org
+	
+	Tomcat 8 (core, zip)
+	톰캣 압축 해제 후 bin 폴더에서 startup.bat 를 실행
+	브라우저에서 127.0.0.1:8080 으로 접근하여 확인
+	포트 허용 메세지 뜨면 허용하기
+	브라우저의 작동을 확인하고 다시 톰캣 종료
+
+	환경변수 설정 후 톰캣 작동 재 확인 (sysdm.cpl)
+	변수이름: 	CATALINA_HOME
+	변수값:	톰캣설치경로
+
+	PATH에 추가
+	%CATALINA_HOME%\bin
+
+	열려있는 cmd를 닫고, 새로운 cmd를 열어서 확인하기
+	C:\> catalina start
+
+
+
+4) 이클립스 실행
+	
+	워크스페이스는 별도의 폴더를 생성하여 지정하기
+	C: 에 기본값폴더로 지정하면, 웹 실행 안될 수도 있음
+	첫번째 실행에서 모든 환경설정을 마무리하기
+	워크스페이스가 변경되면 환경설정도 새로 해야함
+
+Help - About Eclipse IDE
+	Eclipse IDE for Enterprise Java Developers.
+	확인
+	
+Window - Preferences
+
+General - Workspace - Text file Encoding: UTF-8
+	- Web Browser - External (Chrome)
+
+Server - Runtime Environments - Add	
+	Apache Tomcat 8.5
+	Tomcat installation Directory
+	D:\~~~\apache-tomcat-8.5.xx
+	(bin 폴더가 보이는 위치에서 선택하기)
+
+Web - 	CSS	- UTF-8
+	HTML	- UTF-8
+	JSP	- UTF-8
+
+5) 새로운 프로젝트를 생성하여 실행 확인하기
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
